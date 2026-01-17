@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /storage/emulated/0/SEA-XD
+exec python3 -c "import sys; sys.path.insert(0,\".\"); import sh; sh.main()"
+
